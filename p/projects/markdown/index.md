@@ -1,9 +1,9 @@
 # Markdown入门
 
-## [纯文本之markdown格式](article/encourage.md)
+## [分块了解一下](article/分块.md)
 
-> 大家都在用markdown写纯文本文件
+> 这暴力多么优美啊
 
-## [markdown简洁的语法](article/grammer.md)
+## [是主席树哦](article/grammer.md)
 
-> 语法简洁超乎你想象，开始学习吧！
+> HJT大佬！
