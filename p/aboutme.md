@@ -13,3 +13,6 @@
 - QQ: 1253624339
 
 - email: 1253624339@qq.com
+
+- 友链：
+        [超复读曲奇屋](https://blog.re-cookie.net/)
