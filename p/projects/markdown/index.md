@@ -7,3 +7,7 @@
 ## [是主席树哦](article/grammer.md)
 
 > HJT大佬！
+
+## [字符串总结](article/zifuchuan.md)
+
+> 每次都考的不考点
