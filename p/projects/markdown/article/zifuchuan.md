@@ -29,3 +29,32 @@ int gethash(int a,int b) {
 码不好写，咕了（
 ##### 双模
 改一改单模不就出来了嘛
+#### KMP算法
+KMP算法是一种很神奇的字符串匹配算法,代码比较好写，下面就是@lnzwz的板子啦
+```cpp
+int KMP(char S[200010],char T[200010],int wz[200010],int n,int m)
+{
+	ne[0]=-1;
+	for(int i=1;i<=m;i++)
+	{
+		int t=ne[i-1];
+		while(t!=-1&&T[i-1]!=T[t])
+			t=ne[t];
+		ne[i]=t+1;
+	}
+	int a=0,b=0,sl=0;
+	while(a<=n)
+	{
+		if(b==m)
+		{
+			wz[sl++]=a-m;
+			b=ne[b];
+		}
+		if(b==-1||S[a]==T[b])
+			a+=1,b+=1;
+		else
+			b=ne[b];
+	}
+	return sl;
+}
+```
