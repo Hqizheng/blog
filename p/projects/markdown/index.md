@@ -10,4 +10,9 @@
 
 ## [字符串总结](article/zifuchuan.md)
 
-> 每次都考的不考点
+> 每次都考的不考点 
+
+## [可并堆](article/zuopianshu.md)
+
+> 准确的说是左偏树
+
