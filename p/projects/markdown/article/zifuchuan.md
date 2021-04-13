@@ -61,26 +61,43 @@ int KMP(char S[200010],char T[200010],int wz[200010],int n,int m)
 #### trie树
 很简单的一种实现字符串记录与查找的一种树形结构，板子自然也很好写啦(
 ```cpp
-void bfs()
+const int maxn =2e6+5;//如果是64MB可以开到2e6+5，尽量开大
+int tree[maxn][30];//tree[i][j]表示节点i的第j个儿子的节点编号
+bool flagg[maxn];//表示以该节点结尾是一个单词
+int tot;//总节点数
+void insert_(char *str)
 {
-	int he=0,ta=1;
-	dl[0]=0;
-	while(he<ta)
-	{
-		int u=dl[he];
-		if(u==0||fa[u]==0)
-			fi[u]=0;
-		else
-			fi[u]=trs[fi[fa[u]]][fb[u]];
-		for(int i=0;i<94;i++)
-		{
-			if(trs[u][i])
-				dl[ta++]=trs[u][i];
-			else
-				trs[u][i]=trs[fi[u]][i];
-		}
-		he+=1;
-	}
+   int  len=strlen(str);
+   int root=0;
+   for(int i=0;i<len;i++)
+   {
+       int id=str[i]-'0';
+       if(!tree[root][id]) tree[root][id]=++tot;
+       root=tree[root][id];
+   }
+   flagg[root]=true;
+}
+bool find_(char *str)//查询操作，按具体要求改动
+{
+    int len=strlen(str);
+    int root=0;
+    for(int i=0;i<len;i++)
+    {
+        int id=str[i]-'0';
+        if(!tree[root][id]) return false;
+        root=tree[root][id];
+    }
+    return true;
+}
+void init()//最后清空，节省时间
+{
+    for(int i=0;i<=tot;i++)
+    {
+       flagg[i]=false;
+       for(int j=0;j<10;j++)
+           tree[i][j]=0;
+    }
+   tot=0;//RE有可能是这里的问题
 }
 ```
 #### AC自动机
