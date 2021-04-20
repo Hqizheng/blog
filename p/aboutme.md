@@ -4,7 +4,7 @@
 ![](image/avatar.jpg)
 > ACCHE
 
-这里是坐标LN的蒟蒻lnhqz
+这里是坐标LN的OI退役CTF现役的蒟蒻lnhqz
 
 > 如果对于博客有什么建议欢迎你跟我联系：
 
