@@ -1,4 +1,4 @@
-# [lnhqz](https://lnhqz.com)
+# [辽实网安](https://lnhqz.com)
 
 - [社团活动](projects/markdown/index.md)
 - [知识记录](projects/banzi/index.md)
