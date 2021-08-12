@@ -1,16 +1,13 @@
-# 关于作者
+# 欢迎来到辽宁省实验中学网络安全社团
 
 ## lnhqz
 ![](image/avatar.jpg)
 > ACCHE
 
-这里是坐标LN的OI退役CTF现役的蒟蒻lnhqz
+实际上这是社长ACCHE同学(2302hqz)的个人blog(
 
-> 如果对于博客有什么建议欢迎你跟我联系：
+> ACCHE联系方式：
 
 - QQ: 1253624339
 
 - email: 1253624339@qq.com
-
-- 友链：
-        [超复读曲奇屋](https://blog.re-cookie.net/)
