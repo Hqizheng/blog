@@ -1,18 +1,3 @@
-# 算法学习笔记！！！
+# 社团活动！！！
 
-## [分块了解一下](article/fenkuai.md)
-
-> 这暴力多么优美啊
-
-## [是主席树哦](article/grammer.md)
-
-> HJT大佬！
-
-## [字符串总结](article/zifuchuan.md)
-
-> 每次都考的不考点 
-
-## [可并堆](article/zuopianshu.md)
-
-> 准确的说是左偏树
-
+## 即将举办辽宁省实验中学密码学比赛
